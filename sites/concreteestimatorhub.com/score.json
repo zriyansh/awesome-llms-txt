@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "score": 61,
+  "grade": "C",
+  "color": "yellow",
+  "components": [
+    {
+      "id": "spec_compliance",
+      "max": 18,
+      "points": 18,
+      "reasons": []
+    },
+    {
+      "id": "coverage",
+      "max": 20,
+      "points": 10,
+      "reasons": []
+    },
+    {
+      "id": "agent_actions",
+      "max": 14,
+      "points": 3,
+      "reasons": [
+        "no_md_url_twins",
+        "no_agent_signposts",
+        "no_machine_readable_api_spec"
+      ]
+    },
+    {
+      "id": "link_stability",
+      "max": 10,
+      "points": 6,
+      "reasons": [
+        "not_sampled"
+      ],
+      "note": "unverified default 6/10; CI re-checks live"
+    },
+    {
+      "id": "freshness",
+      "max": 10,
+      "points": 5,
+      "reasons": [
+        "no_last_modified_header"
+      ],
+      "note": "unverified default 5/10",
+      "source": "default"
+    },
+    {
+      "id": "discoverability",
+      "max": 8,
+      "points": 8,
+      "reasons": []
+    },
+    {
+      "id": "auth_signposting",
+      "max": 8,
+      "points": 0,
+      "reasons": [
+        "no_auth_keywords",
+        "no_auth_section"
+      ]
+    },
+    {
+      "id": "size_discipline",
+      "max": 6,
+      "points": 6,
+      "reasons": [],
+      "kb": 4.3
+    },
+    {
+      "id": "content_type",
+      "max": 4,
+      "points": 3,
+      "reasons": [
+        "no_utf8_charset"
+      ]
+    },
+    {
+      "id": "voice",
+      "max": 2,
+      "points": 2,
+      "reasons": []
+    }
+  ],
+  "parsed": {
+    "h1": "Concrete Calculator Hub",
+    "h1_count": 1,
+    "blockquote": "Free concrete estimating tools for volume, bag count, slabs, footings, steps, ready-mix comparisons, and material cost planning.",
+    "section_count": 6,
+    "subsection_count": 0,
+    "link_count": 23,
+    "value_link_count": 13,
+    "low_value_link_count": 10,
+    "raw_bytes": 4429
+  },
+  "target": "https://concreteestimatorhub.com/llms.txt",
+  "fetched": {
+    "http_status": 200,
+    "content_type": "text/plain",
+    "last_modified": null,
+    "fetched_url": "https://concreteestimatorhub.com/llms.txt",
+    "final_url": "https://concreteestimatorhub.com/llms.txt"
+  }
+}

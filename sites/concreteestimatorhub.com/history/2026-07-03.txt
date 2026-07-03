@@ -1,0 +1,53 @@
+# Concrete Calculator Hub
+
+> Free concrete estimating tools for volume, bag count, slabs, footings, steps, ready-mix comparisons, and material cost planning.
+
+Concrete Calculator Hub helps DIY homeowners, small contractors, publishers,
+and material planners estimate concrete quantities before ordering bags or
+ready-mix concrete. The site focuses on practical material estimates, not
+structural engineering advice.
+
+Use the calculators for quick planning, then confirm product yield, delivery
+minimums, site conditions, local codes, and contractor or engineer guidance
+before buying concrete or starting regulated work.
+
+## Core Calculators
+
+- [Concrete Volume Calculator](https://concreteestimatorhub.com/concrete-volume-calculator): Estimate cubic yards, cubic feet, cubic meters, bags, waste, and cost from project dimensions.
+- [Concrete Bag Calculator](https://concreteestimatorhub.com/concrete-bag-calculator): Convert project dimensions into whole 40 lb, 60 lb, 80 lb, or metric concrete bag counts.
+- [Concrete Slab Calculator](https://concreteestimatorhub.com/concrete-slab-calculator): Calculate patio, driveway pad, garage slab, shed base, and other flatwork concrete volume.
+- [Concrete Footing Calculator](https://concreteestimatorhub.com/concrete-footing-calculator): Estimate continuous footing volume from run length, width, depth, waste, and cost assumptions.
+- [Concrete Steps Calculator](https://concreteestimatorhub.com/concrete-steps-calculator): Estimate concrete for stairs and steps from tread, rise, width, step count, and waste.
+- [Concrete Cost Calculator](https://concreteestimatorhub.com/concrete-cost-calculator): Compare bagged concrete and ready-mix material totals.
+- [Ready-Mix vs Bags Calculator](https://concreteestimatorhub.com/ready-mix-vs-bags-calculator): Compare delivered ready-mix concrete with bagged concrete for small projects.
+
+## Specialized Calculators
+
+- [Concrete Shed Base Calculator](https://concreteestimatorhub.com/concrete-shed-base-calculator): Estimate shed base concrete, bag count, cubic yards, and cost.
+- [Concrete Garage Slab Calculator](https://concreteestimatorhub.com/concrete-garage-slab-calculator): Estimate garage slab yards, thickness, bag pressure, and material cost.
+- [Concrete Post Hole Calculator](https://concreteestimatorhub.com/concrete-post-hole-calculator): Estimate round hole concrete by diameter, depth, hole count, and waste factor.
+
+## Reference Guides
+
+- [Concrete Bag Coverage Calculator](https://concreteestimatorhub.com/blog/concrete-bag-coverage-calculator): 40 lb, 60 lb, and 80 lb bag square-foot coverage chart at common slab thicknesses.
+- [Cubic Feet of Concrete per Bag](https://concreteestimatorhub.com/blog/cubic-feet-of-concrete-per-bag): Common concrete bag yields and cubic-foot planning values.
+- [Concrete Cost per Yard](https://concreteestimatorhub.com/blog/concrete-cost-per-yard): Material cost context for cubic-yard concrete estimates.
+- [Concrete Price Calculator Guide](https://concreteestimatorhub.com/blog/concrete-price-calculator-guide): How to use calculator inputs for practical price planning.
+- [Concrete Slab Thickness Guide](https://concreteestimatorhub.com/blog/concrete-slab-thickness-guide): Common slab thickness ranges for planning estimates.
+- [How Many Yards of Concrete Do I Need](https://concreteestimatorhub.com/blog/how-many-yards-of-concrete-do-i-need): Quick guide for converting project dimensions into cubic yards.
+
+## Publisher Resources
+
+- [Link to Concrete Calculator Hub](https://concreteestimatorhub.com/resources/link-to-us): Citation notes, suggested anchors, embed examples, and publisher-friendly resource links.
+- [Blog Guides](https://concreteestimatorhub.com/blog): Concrete estimating guides, bag-count examples, cost planning articles, and calculator explainers.
+- [Contact](https://concreteestimatorhub.com/contact): Ask about corrections, partnerships, calculator suggestions, or publisher resources.
+
+## Policies
+
+- [About](https://concreteestimatorhub.com/about): How the site is maintained and what the calculators are intended to do.
+- [Privacy Policy](https://concreteestimatorhub.com/privacy): Data handling and privacy information.
+- [Terms of Service](https://concreteestimatorhub.com/terms): Terms for using the website and calculators.
+
+## Optional
+
+- [Full LLM Context](https://concreteestimatorhub.com/llms-full.txt): Expanded site context for LLMs and AI agents.
