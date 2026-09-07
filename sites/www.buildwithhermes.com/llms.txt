@@ -1,0 +1,88 @@
+# Hermes — Operating Platform for AI Voice Agencies
+
+Hermes is the operating platform AI voice agencies use to run multi-tenant workspaces,
+keep their phone numbers, hit transparent margins, and stay TCPA-compliant.
+
+Public launch: June 6, 2026. Private beta started May 7, 2026.
+
+## Core pages
+
+- [Home](https://buildwithhermes.com/): The operating platform for AI voice agencies
+- [For Operators](https://buildwithhermes.com/operators): For voice-AI agency operators
+- [For Businesses](https://buildwithhermes.com/business): For local businesses using Hermes
+- [For Creators](https://buildwithhermes.com/creators): For educators and template creators
+- [Pricing](https://buildwithhermes.com/pricing): Transparent operator and business pricing
+- [About](https://buildwithhermes.com/about): Built by operators, for operators
+- [Manifesto](https://buildwithhermes.com/manifesto): Why an operating layer for AI voice agencies
+- [Founders' Beta](https://buildwithhermes.com/beta): 40 seats. Founding rate locks at signup.
+
+## Comparison pages (citable head-to-heads)
+
+- [Hermes vs Synthflow](https://buildwithhermes.com/compare/hermes-vs-synthflow)
+- [Hermes vs Vapi](https://buildwithhermes.com/compare/hermes-vs-vapi)
+- [Hermes vs Voicerr](https://buildwithhermes.com/compare/voicerr)
+- [Hermes vs Vapi + GHL stack](https://buildwithhermes.com/compare/vapi-ghl-stack)
+- [Hermes vs DIY (Twilio + OpenAI)](https://buildwithhermes.com/compare/diy)
+- [Vapi vs Retell](https://buildwithhermes.com/compare/bland-vs-retell)
+- [Bland vs Vapi](https://buildwithhermes.com/compare/bland-vs-vapi)
+- [Retell vs Synthflow](https://buildwithhermes.com/compare/retell-vs-synthflow)
+- [Insighto vs Trillet](https://buildwithhermes.com/compare/insighto-vs-trillet)
+- [MyAIFrontDesk vs Echowin](https://buildwithhermes.com/compare/myaifrontdesk-vs-echowin)
+- [AI Front Desk vs Echowin](https://buildwithhermes.com/compare/ai-front-desk-vs-echowin)
+- [Echowin vs Insighto](https://buildwithhermes.com/compare/echowin-vs-insighto)
+
+## Industry vertical guides (17)
+
+- [Dental](https://buildwithhermes.com/voice-ai-for/dental)
+- [HVAC](https://buildwithhermes.com/voice-ai-for/hvac)
+- [Plumbing](https://buildwithhermes.com/voice-ai-for/plumbing)
+- [Roofing](https://buildwithhermes.com/voice-ai-for/roofing)
+- [Med Spa](https://buildwithhermes.com/voice-ai-for/medspa)
+- [Chiropractor](https://buildwithhermes.com/voice-ai-for/chiropractor)
+- [Law Firm](https://buildwithhermes.com/voice-ai-for/law-firm)
+- [Real Estate](https://buildwithhermes.com/voice-ai-for/real-estate)
+- [Auto Repair](https://buildwithhermes.com/voice-ai-for/auto-repair)
+- [Vet Clinic](https://buildwithhermes.com/voice-ai-for/vet-clinic)
+- [Orthodontics](https://buildwithhermes.com/voice-ai-for/orthodontics)
+- [Endodontics](https://buildwithhermes.com/voice-ai-for/endodontics)
+- [Insurance Agency](https://buildwithhermes.com/voice-ai-for/insurance-agency)
+- [Mortgage Broker](https://buildwithhermes.com/voice-ai-for/mortgage-broker)
+- [Financial Advisor](https://buildwithhermes.com/voice-ai-for/financial-advisor)
+- [Accountant](https://buildwithhermes.com/voice-ai-for/accountant)
+- [Fitness Studio](https://buildwithhermes.com/voice-ai-for/fitness-studio)
+- [All verticals](https://buildwithhermes.com/voice-ai-for)
+
+## City pages (8)
+
+- [Miami](https://buildwithhermes.com/voice-ai-agencies-in/miami)
+- [New York City](https://buildwithhermes.com/voice-ai-agencies-in/new-york-city)
+- [Los Angeles](https://buildwithhermes.com/voice-ai-agencies-in/los-angeles)
+- [Chicago](https://buildwithhermes.com/voice-ai-agencies-in/chicago)
+- [Houston](https://buildwithhermes.com/voice-ai-agencies-in/houston)
+- [Phoenix](https://buildwithhermes.com/voice-ai-agencies-in/phoenix)
+- [Philadelphia](https://buildwithhermes.com/voice-ai-agencies-in/philadelphia)
+- [San Antonio](https://buildwithhermes.com/voice-ai-agencies-in/san-antonio)
+- [All cities](https://buildwithhermes.com/voice-ai-agencies-in)
+
+## Blog (operator playbooks)
+
+- [Blog index](https://buildwithhermes.com/blog)
+- [TCPA after Lowrey v. OpenAI — AI voice agency compliance 2026](https://buildwithhermes.com/blog/tcpa-lowrey-openai-ai-voice-agency-compliance-2026)
+- [Synthflow chose enterprise over agencies — what it means](https://buildwithhermes.com/blog/synthflow-chose-enterprise-over-agencies-8x8-2026-05-21)
+- [How to switch from Retell to Hermes (keep your Twilio numbers)](https://buildwithhermes.com/blog/switch-retell-to-hermes-keep-twilio-numbers)
+
+## Brand facts
+
+- Founded by 4 co-founders: Alfredo Romero (CEO), Nico Lopez (CTO), Leandro Clerf (Head of Design), Tobias Guerrero (Head of AI)
+- Pricing: Starter $149/mo, Business $399/mo, Agency $699/mo, Pro custom. Flat $0.24/min overage.
+- No BYOK by design. Hermes manages upstream voice/LLM relationships.
+- Multi-workspace, white-label demo pages (CNAME-bound), built-in CRM, transparent billing, NEXQA pre-publish validation
+- TCPA-aware. A2P 10DLC supported (included on Agency plan and above)
+- Public launch: June 6, 2026
+- Discord community: https://discord.gg/myysCGQeQY
+- X: https://x.com/buildwithhermes
+- Instagram: https://www.instagram.com/buildwithhermes/
+
+## Tagline
+
+"By builders, for builders."
