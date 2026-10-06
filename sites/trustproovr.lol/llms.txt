@@ -1,0 +1,59 @@
+# trustproovr
+
+> Testimonial collection + social-proof widget for launch-stage SaaS founders and indie hackers. One script tag collects testimonials at the right moment (behavioral triggers + smart timing), drafts the words from real usage, and renders approved proof in the customer's own brand. Pricing: $12/mo Pro or $199 lifetime, free trial, self-hostable.
+
+## Docs
+
+- [Widget builder](https://trustproovr.lol/app): paste a product URL, get a themed install snippet
+- [Pricing](https://trustproovr.lol/pricing): Pro $12/mo or Lifetime $199 — both include everything
+- [Sign in / create account](https://trustproovr.lol/login): email or Google OAuth
+- [Dashboard](https://trustproovr.lol/dashboard): approve, reject, and manage testimonials
+
+## Guides
+
+- [How-to guides](https://trustproovr.lol/how-to): collecting, asking, timing, video, placement
+- [Platform integrations](https://trustproovr.lol/integrations): Shopify, WordPress, Webflow, Wix, Squarespace, Framer, Kajabi, Teachable, Podia, Carrd
+- [Alternatives and comparisons](https://trustproovr.lol/alternatives): honest comparisons vs Senja, Testimonial.to, Trustpilot, and more
+- [Sitemap](https://trustproovr.lol/sitemap.xml): all public URLs
+
+## Agent API
+
+All endpoints are JSON. Base URL: https://trustproovr.lol
+
+- [Agent signup](https://trustproovr.lol/api/agent/signup): POST { email, password } → access_token
+- [Agent signin](https://trustproovr.lol/api/agent/signin): POST { email, password } → access_token
+- [Current account and spaces](https://trustproovr.lol/api/agent/me): GET, Bearer auth
+- [Create product space](https://trustproovr.lol/api/agent/spaces): POST { url, prompt?, collectVideo? } → space + scanned brand tokens
+- [Install snippet](https://trustproovr.lol/api/agent/spaces/demo/snippet): GET /api/agent/spaces/{slug}/snippet → script + wall markup
+
+### Auth
+
+Send `Authorization: Bearer <access_token>` on every call after signup or signin. Tokens are Supabase JWTs (`expires_in` seconds, refresh via `/api/agent/signin`). Human auth is cookie-based at `/login` — agents should use the JSON endpoints only.
+
+### Billing
+
+`GET /api/agent/spaces/{slug}/snippet` returns **402** with `checkoutUrl` until the account has an active Pro plan — send the user through that URL once; verification stamps `plan: pro` and every call succeeds after.
+
+### Snippet options
+
+Query params on the snippet endpoint:
+
+- `format` = `text` | `video-short` | `video-long`
+- `trigger` = `sessions:3` (default) | `time:30` | `scroll:50` | `exit` | `event:NAME` | `milestone`
+- `smart` = `off` to disable the behavioral classifier
+- `style` = card template (`tweet`, `bigquote`, `stats`, `badge`, `avatars`, `bento`, `glass`, `serif`, `polaroid`, `spotlight`, `logocard`, `chat`, `rating`, `minimal`, ...)
+- `accent` = hex like `%233554f5`
+- `wall` = `hero` | `footer` | `after:SELECTOR` | `before:SELECTOR` | `in:SELECTOR` — auto-places the wall, no div needed
+
+### Runtime hooks on the site
+
+- `trustproovr.track("purchase")` — fire milestone/custom events (works with `event:` triggers)
+- `trustproovr.open()` — force the ask open
+- `trustproovr.reset()` — clear local state for testing
+- `window.TRUSTPROOVR_USER = { name, email, avatarUrl }` — prefill name/avatar on the ask
+
+### Public surfaces
+
+- Shareable collect link: `/s/{slug}` — customers submit without the widget
+- Public wall: `/w/{slug}`
+- Human dashboard: `/dashboard/{slug}` — approve/reject submissions
